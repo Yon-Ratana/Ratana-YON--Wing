@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(85, 228, 28);
+}
+.form-container {
+    margin-top: 90px;
+    width: 50vh;
+    height: 70%;
+    background-color: white;
+    width: 70vh;
+    border-radius: 10px;
+}
+.header {  
+    text-align: center;
+}
+img {
+    width: 200px;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: gray;
+}
+h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.User-name, .Password {
+    position: relative;
+    margin-bottom: 15px;
+}
+.User-name input {
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Password input{
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h5{
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+.fa {
+    color: gray;
+    position: absolute;
+    margin-left: 320px;
+    top: 50%;
+    transform:none;
+}
+.loin input {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.loin input {
+    background-color: #0056b3;
+}
+.loin{
+    color: aliceblue;
+    width: 50vh;
+}
+button{
+    width: 50vh;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0964c5;
+    margin-bottom: 10px;
+}
+.forgot {
+    text-align: center;
+    margin: 10px ;
+}
+.langough {
+    text-align: center;
+    margin-top: 15px;
+}
+.langough h4 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #333;
+}
+.langough h4{
+    color: blue;
+}
+.header h4{
+    color: blue;
+}
